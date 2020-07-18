@@ -4,4 +4,4 @@ async function foo(){
 	console.log(data)
 }
 foo()
-console.log(9379);
+
