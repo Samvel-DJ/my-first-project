@@ -1,6 +1,7 @@
 async function foo(){
-	const resp = await fetch('https://www.cbr-xml-daily.ru/daily_json.js')
+	const resp = await fetch('https://api.github.com/users')
 	const data = await resp.json();
 	console.log(data)
 }
 foo()
+console.log(9379);
